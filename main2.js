@@ -54,10 +54,10 @@ const AllSongs = [
   new Musica(
     1,
     "./imagenes/portada1.jpeg",
-    "Eres",
-    "Cafe Tacuba",
+    "And you",
+    "The Beatles",
     "4:20",
-    "Balada",
+    "pop/rock",
     "2009",
     'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
   ),
@@ -65,10 +65,10 @@ const AllSongs = [
   new Musica(
     2,
     "./imagenes/portada2.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
+    "Love me do",
+    "Elton John",
     "4:23",
-    "Balada",
+    "Pop",
     "2009",
     'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
   ),
@@ -76,23 +76,23 @@ const AllSongs = [
   new Musica(
     3,
     "./imagenes/portada3.jpeg",
-    "Te pido",
-    "TINI",
+    "Every breath you take",
+    "Queen",
     "2:54",
-    "Balada",
+    "Pop",
     "2023",
-    ' '
+    'https://cdn.pixabay.com/audio/2021/11/20/audio_a69b88e9f5.mp3'
   ),
 
   new Musica(
     4,
     "./imagenes/portada4.jpeg",
-    "Luna",
-    "Feid,ATL Jacob",
+    "Don’t look back in anger",
+    "Coldplay",
     "3:16",
-    "Regueton",
-    "2023",
-    ' '
+    "Rock",
+    "2003",
+    'https://cdn.pixabay.com/audio/2022/04/12/audio_13feea552b.mp3'
   ),
 
   new Musica(
@@ -109,11 +109,11 @@ const AllSongs = [
   new Musica(
     6,
     "./imagenes/portada6.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
-    "Balada",
-    "2013",
+     "Luna",
+    "Feid,ATL Jacob",
+    "3:16",
+    "Regueton",
+    "2023",
     'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
   ),
 
@@ -142,7 +142,7 @@ const AllSongs = [
   new Musica(
     9,
     "./imagenes/portada9.jpeg",
-    "Simplemente Amigos",
+    "Cigarrillo",
     "Ana Gabriel",
     "4:20",
     "Balada",
@@ -153,7 +153,7 @@ const AllSongs = [
   new Musica(
     10,
     "./imagenes/portada10.jpeg",
-    "Eres",
+    "Tan solo tu",
     "Cafe Tacuba",
     "4:20",
     "Balada",
@@ -164,7 +164,7 @@ const AllSongs = [
   new Musica(
     11,
     "./imagenes/portada11.jpeg",
-    "Un siglo sin ti",
+    "Bendita",
     "Chayanne",
     "4:23",
     "Balada",
@@ -175,29 +175,29 @@ const AllSongs = [
   new Musica(
     12,
     "./imagenes/portada12.jpeg",
-    "Simplemente Amigos",
+    "No me digas",
     "Ana Gabriel",
     "4:20",
     "Balada",
-    "2013",
+    "2004",
     'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
   ),
 
   new Musica(
     13,
     "./imagenes/portada13.jpeg",
-    "Eres",
+    "Sencilla",
     "Cafe Tacuba",
     "4:20",
     "Balada",
-    "2009",
+    "2002",
     'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
   ),
 
   new Musica(
     14,
     "./imagenes/portada14.jpeg",
-    "Un siglo sin ti",
+    "Mia",
     "Chayanne",
     "4:23",
     "Balada",
@@ -208,9 +208,9 @@ const AllSongs = [
   new Musica(
     15,
     "./imagenes/portada15.jpeg",
-    "Simplemente Amigos",
+    "Por tu amor",
     "Ana Gabriel",
-    "4:20",
+    "4:25",
     "Balada",
     "2013",
     'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
