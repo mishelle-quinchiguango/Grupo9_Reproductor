@@ -8,5 +8,4 @@ Integrantes:
    calvaradop2012@gmail.com
 * Darlyn Maithe Ludeña Cedeño
    darlynludena963@gmail.com
-* Joselin Andrea Reinoso Chávez
-   jossyreinoso@gmail.com
+
