@@ -1,5 +1,5 @@
-if (!localStorage.getItem('isLogged')) {
-  window.location.href = './login.html';
+if (!localStorage.getItem("isLogged")) {
+  window.location.href = "./login.html";
 }
 
 const containerFavoritos = document.getElementById("favoritos");
@@ -18,26 +18,21 @@ class Musica {
     isFavorite = false,
     isMyplaylist = false
   ) {
-    this.id=id,
-    this.imagen = imagen;
+    (this.id = id), (this.imagen = imagen);
     this.nombre = nombre;
     this.autor = autor;
     this.duracion = duracion;
     this.genero = genero;
     this.anio = anio;
-    this.sonido=sonido;
+    this.sonido = sonido;
     this.isFavorite = isFavorite;
     this.isMyplaylist = isMyplaylist;
   }
 
   static obtenerPorNombre(nombre) {
-    return AllSongs.find(song => song.nombre === nombre) || null;
+    return AllSongs.find((song) => song.nombre === nombre) || null;
   }
- 
 }
-
-
-
 
 const AllSongs = [
   new Musica(
@@ -48,7 +43,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -59,7 +54,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -70,7 +65,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -81,7 +76,7 @@ const AllSongs = [
     "2:54",
     "Balada",
     "2023",
-    ' '
+    " "
   ),
 
   new Musica(
@@ -92,7 +87,7 @@ const AllSongs = [
     "3:16",
     "Regueton",
     "2023",
-    ' '
+    " "
   ),
 
   new Musica(
@@ -103,7 +98,7 @@ const AllSongs = [
     "3:08",
     "Balada",
     "2023",
-    ' '
+    " "
   ),
 
   new Musica(
@@ -114,7 +109,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -125,7 +120,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -136,7 +131,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -147,7 +142,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -158,7 +153,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -169,7 +164,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -180,7 +175,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -191,7 +186,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -202,7 +197,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -213,7 +208,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -224,7 +219,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -235,7 +230,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -246,7 +241,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -257,7 +252,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -268,7 +263,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -279,7 +274,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -290,7 +285,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -301,7 +296,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -312,7 +307,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -323,7 +318,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -334,7 +329,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 
   new Musica(
@@ -345,7 +340,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3"
   ),
 
   new Musica(
@@ -356,7 +351,7 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3"
   ),
 
   new Musica(
@@ -367,110 +362,101 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3"
   ),
 ];
-  
 
-  // Uso de la función
+// Uso de la función
 
 class ListaCanciones {
-    constructor(canciones) {
-        this.canciones = canciones;
-        this.cancionesFavoritas = []; // Lista para almacenar canciones favoritas
-        this.cancionesPlaylist=[];
-    }
+  constructor(canciones) {
+    this.canciones = canciones;
+    this.cancionesFavoritas = []; // Lista para almacenar canciones favoritas
+    this.cancionesPlaylist = [];
+  }
 
-    inicializarBusqueda() {
-        const iconosBucador = document.getElementById("iconosBuscar");
-        const InputBuscador = document.getElementById("inputBuscador");
-        const btnBuscar = document.getElementById("btnBuscar");
-        const listaBuscar = document.getElementById("lista-buscar");
+  inicializarBusqueda() {
+    const iconosBucador = document.getElementById("iconosBuscar");
+    const InputBuscador = document.getElementById("inputBuscador");
+    const btnBuscar = document.getElementById("btnBuscar");
+    const listaBuscar = document.getElementById("lista-buscar");
 
-        iconosBucador.style.display = 'none';
+    iconosBucador.style.display = "none";
 
-        btnBuscar.addEventListener("click", () => {
-            const valor = InputBuscador.value;
+    btnBuscar.addEventListener("click", () => {
+      const valor = InputBuscador.value;
 
-            const cancionesFiltradas = this.buscarCanciones(valor);
+      const cancionesFiltradas = this.buscarCanciones(valor);
 
-            if (cancionesFiltradas.length > 0) {
-                iconosBucador.style.display = 'block';
-                this.actualizarInterfaz(cancionesFiltradas); // Actualizar la interfaz con las canciones filtradas
-            } else {
-                listaBuscar.innerHTML = `<li>No se encontraron canciones</li>`;
-            }
-        });
-    }
+      if (cancionesFiltradas.length > 0) {
+        iconosBucador.style.display = "block";
+        this.actualizarInterfaz(cancionesFiltradas); // Actualizar la interfaz con las canciones filtradas
+      } else {
+        listaBuscar.innerHTML = `<li>No se encontraron canciones</li>`;
+      }
+    });
+  }
 
-    buscarCanciones(valor) {
-        return this.canciones.filter((c) =>
-            c.nombre.toLowerCase().includes(valor.toLowerCase()) ||
-            c.autor.toLowerCase().includes(valor.toLowerCase()) ||
-            c.genero.toLowerCase().includes(valor.toLowerCase())
-        );
-    }
+  buscarCanciones(valor) {
+    return this.canciones.filter(
+      (c) =>
+        c.nombre.toLowerCase().includes(valor.toLowerCase()) ||
+        c.autor.toLowerCase().includes(valor.toLowerCase()) ||
+        c.genero.toLowerCase().includes(valor.toLowerCase())
+    );
+  }
 
-
-    
-
-    
-    changeConcurrentProduct(music){
-      const sonido=playMusic(music.Audio)
-     
-
-        const containerMusic=document.getElementById('contenedor-portada')
-        let concurretMusic
-                concurretMusic=music
-                containerMusic.innerHTML=` <img src="${concurretMusic.imagen}" alt="" />
-            <div class="descripcion">
-              <h3>${concurretMusic.nombre}</h3>
-              <ul>
-                <li><b>Artista:</b> ${concurretMusic.autor}</li>
-                <li><b>Duración:</b> ${concurretMusic.duracion}</li>
-                <li><b>Género:</b> ${concurretMusic.genero}</li>
-                <li><b>Año:</b> ${concurretMusic.anio}</li>
-              </ul>
-            </div>
+  changeConcurrentProduct(music) {
+    const containerMusic = document.getElementById("contenedor-portada");
+    let concurretMusic;
+    concurretMusic = music;
+    containerMusic.innerHTML = ` <img src="${concurretMusic.imagen}" alt="" />
+          <div class="descripcion">
+            <h3>${concurretMusic.nombre}</h3>
+            <ul>
+              <li><b>Artista:</b> ${concurretMusic.autor}</li>
+              <li><b>Duración:</b> ${concurretMusic.duracion}</li>
+              <li><b>Género:</b> ${concurretMusic.genero}</li>
+              <li><b>Año:</b> ${concurretMusic.anio}</li>
+            </ul>
+          </div>
+          
+      
+          
+          <div class="botones">
+            <i id="botonBlack" class="bi bi-skip-backward-circle" ></i>
+            <i id="botonPlay" class="bi bi-play-circle" onclick="${playMusic(
+              concurretMusic.sonido,
+              concurretMusic.id
+            )}"></i>
+            <i id="botonNext" class="bi bi-fast-forward-circle"></i>
+            <i id="botonpause" class="bi bi-pause-circle" onclick="playMusic()"></i>
+            <i class="bi bi-stop-circle" onclick="stopMusic()"></i>
             
-        
-            
-            <div class="botones">
-              <i id="botonBlack" class="bi bi-skip-backward-circle" ></i>
-              <i id="botonPlay" class="bi bi-play-circle" onclick="${playMusic(concurretMusic.sonido)}"></i>
-            
-              <i id="botonpause" class="bi bi-pause-circle" onclick="playMusic()"></i>
-              <i class="bi bi-stop-circle" onclick="stopMusic()"></i>
-              <i class="bi bi-bell-slash"></i>
-            </div>`
+          </div>`;
 
+    const playButton = document.getElementById("botonPlay");
+    playButton.addEventListener("click", function () {
+      playMusic(concurretMusic.sonido, concurretMusic.id);
+    });
 
-            const playButton = document.getElementById("botonPlay");
-            playButton.addEventListener('click', function() {
-              playMusic(concurretMusic.sonido);
-            
-          });
+    const blackButton = document.getElementById("botonBlack");
+    blackButton.addEventListener("click", function () {
+      retrocederEnPlaylist(concurretMusic.id);
+    });
 
-         
-          const blackButton = document.getElementById("botonBlack");
-              blackButton.addEventListener('click', function() {
-                retrocederEnPlaylist(concurretMusic.id);
-                
+    const botonNext = document.getElementById("botonNext");
+    botonNext.addEventListener("click", function () {
+      adelantarEnPlaylist(concurretMusic.id);
+    });
+  }
 
-            
-          });
+  agregarAPlaylist(nombreCancion) {
+    const listaPlaylist = document.getElementById("listaPlaylistCanciones");
+    const idM = obtenerID(nombreCancion);
 
-
-                }
-                
-
-    agregarAPlaylist(nombreCancion) {
-        const listaPlaylist = document.getElementById("listaPlaylistCanciones");
-        const idM=obtenerID(nombreCancion);
-
-        if(!this.cancionesPlaylist.includes(nombreCancion)){
-       
-        listaPlaylist.innerHTML += `
+    if (!this.cancionesPlaylist.includes(nombreCancion)) {
+      listaPlaylist.innerHTML += `
         <div class="item">
             <span>${nombreCancion}</span>
             <div class="iconos">
@@ -479,17 +465,16 @@ class ListaCanciones {
                 <button class="bi bi-trash" onclick="listaCanciones.eliminarCancionPlaylist('${nombreCancion}')"></button>
             </div>
         </div>`;
-        this.cancionesPlaylist.push(nombreCancion);
-        }
+      this.cancionesPlaylist.push(nombreCancion);
     }
+  }
 
+  agregarAFavoritos(nombreCancion) {
+    const listaFavoritos = document.getElementById("listaFavoritosCanciones");
+    const idM = obtenerID(nombreCancion);
 
-    agregarAFavoritos(nombreCancion) {
-        const listaFavoritos = document.getElementById("listaFavoritosCanciones");
-        const idM=obtenerID(nombreCancion);
-
-        if (!this.cancionesFavoritas.includes(nombreCancion)){
-            listaFavoritos.innerHTML += `
+    if (!this.cancionesFavoritas.includes(nombreCancion)) {
+      listaFavoritos.innerHTML += `
                 <div class="item">
                     <span>${nombreCancion}</span>
                     <div class="iconos">
@@ -498,18 +483,17 @@ class ListaCanciones {
                         <button class="bi bi-trash" onclick="listaCanciones.eliminarCancionFavoritos('${nombreCancion}')"></button>
                     </div>
                 </div>`;
-            this.cancionesFavoritas.push(nombreCancion); // Agregar la canción a la lista de favoritos
-        // this.actualizarInterfaz(this.buscarCanciones('')); // Actualizar la interfaz para mostrar las canciones actualizadas
+      this.cancionesFavoritas.push(nombreCancion); // Agregar la canción a la lista de favoritos
+      // this.actualizarInterfaz(this.buscarCanciones('')); // Actualizar la interfaz para mostrar las canciones actualizadas
     }
   }
 
-
-    actualizarInterfaz(cancionesMostrar) {
-        const listaBuscar = document.getElementById("lista-buscar");
-        listaBuscar.innerHTML = cancionesMostrar
-            .map(
-                (c) =>
-                `<div class="item">
+  actualizarInterfaz(cancionesMostrar) {
+    const listaBuscar = document.getElementById("lista-buscar");
+    listaBuscar.innerHTML = cancionesMostrar
+      .map(
+        (c) =>
+          `<div class="item">
                     <span>${c.nombre}</span>
                     <div class="iconos">
                         <button class="bi bi-play-fill" onclick="listaCanciones.changeConcurrentProduct(AllSongs['${c.id}'])"></button>
@@ -517,104 +501,119 @@ class ListaCanciones {
                         <button class="bi bi-plus" onclick="listaCanciones.agregarAPlaylist('${c.nombre}')"></button>
                     </div>
                 </div>`
-            )
-            .join("");
-    }
+      )
+      .join("");
+  }
 
+  eliminarCancionFavoritos(nombreCancion) {
+    const listaFavoritos = document.getElementById("listaFavoritosCanciones");
+    const elementosCancion = listaFavoritos.querySelectorAll(".item");
+    elementosCancion.forEach((elemento) => {
+      if (elemento.querySelector("span").textContent === nombreCancion) {
+        elemento.remove();
+      }
+    });
 
-    eliminarCancionFavoritos(nombreCancion) {
-        const listaFavoritos = document.getElementById("listaFavoritosCanciones");
-        const elementosCancion = listaFavoritos.querySelectorAll('.item');
-        elementosCancion.forEach(elemento => {
-            if (elemento.querySelector('span').textContent === nombreCancion) {
-                elemento.remove();
-            }
-        });
+    // También debes eliminar la canción de la lista de canciones favoritas en tu clase ListaCanciones
+    this.cancionesFavoritas = this.cancionesFavoritas.filter(
+      (cancion) => cancion !== nombreCancion
+    );
+  }
 
-        // También debes eliminar la canción de la lista de canciones favoritas en tu clase ListaCanciones
-        this.cancionesFavoritas = this.cancionesFavoritas.filter(cancion => cancion !== nombreCancion);
-    }
+  eliminarCancionPlaylist(nombreCancion) {
+    const listaFavoritos = document.getElementById("listaPlaylistCanciones");
+    const elementosCancion = listaFavoritos.querySelectorAll(".item");
+    elementosCancion.forEach((elemento) => {
+      if (elemento.querySelector("span").textContent === nombreCancion) {
+        elemento.remove();
+      }
+    });
 
+    // También debes eliminar la canción de la lista de canciones favoritas en tu clase ListaCanciones
+    this.cancionesFavoritas = this.cancionesFavoritas.filter(
+      (cancion) => cancion !== nombreCancion
+    );
+  }
 
-    eliminarCancionPlaylist(nombreCancion) {
-        const listaFavoritos = document.getElementById("listaPlaylistCanciones");
-        const elementosCancion = listaFavoritos.querySelectorAll('.item');
-        elementosCancion.forEach(elemento => {
-            if (elemento.querySelector('span').textContent === nombreCancion) {
-                elemento.remove();
-            }
-        });
+  // searchMusic(query){
+  //     const results=this.music.filter(p=>p.nombre.toLowerCase().includes(query.toLowerCase()))
+  //     if(results.length==0) this.containerMusic.innerHTML=`<p class="musicError">No se encontraron musicas</p>
+  //     <div class="music" onClick`
 
-        // También debes eliminar la canción de la lista de canciones favoritas en tu clase ListaCanciones
-        this.cancionesFavoritas = this.cancionesFavoritas.filter(cancion => cancion !== nombreCancion);
-    }
-
-
-    // searchMusic(query){
-    //     const results=this.music.filter(p=>p.nombre.toLowerCase().includes(query.toLowerCase()))
-    //     if(results.length==0) this.containerMusic.innerHTML=`<p class="musicError">No se encontraron musicas</p>
-    //     <div class="music" onClick`
-
-    // }
+  // }
 }
 
+// CLASE HEREDADA DE LISTA DE CANCIONES
 
+class ListaFavoritos extends ListaCanciones {
+  constructor(canciones) {
+    super(canciones);
+    this.cancionesFavoritas = [];
+  }
 
+  agregar(nombreCancion) {
+    this.cancionesFavoritas.push(nombreCancion);
+    this.actualizarInterfaz();
+  }
 
-  // CLASE HEREDADA DE LISTA DE CANCIONES
-
-
-  class ListaFavoritos extends ListaCanciones {
-    constructor(canciones) {
-        super(canciones);
-        this.cancionesFavoritas = [];
-    }
-
-    agregar(nombreCancion) {
-        this.cancionesFavoritas.push(nombreCancion);
-        this.actualizarInterfaz();
-    }
-
-    actualizarInterfaz() {
-        const listaFavoritos = document.getElementById("listaFavoritosCanciones");
-        listaFavoritos.innerHTML = this.cancionesFavoritas
-            .map((nombre) => `<div>${nombre}</div>`)
-            .join("");
-    }
+  actualizarInterfaz() {
+    const listaFavoritos = document.getElementById("listaFavoritosCanciones");
+    listaFavoritos.innerHTML = this.cancionesFavoritas
+      .map((nombre) => `<div>${nombre}</div>`)
+      .join("");
+  }
 }
 
 const listaCanciones = new ListaCanciones(AllSongs);
 const favoritos = new ListaFavoritos(AllSongs);
 listaCanciones.inicializarBusqueda();
 
-
-
 //obtner id para cambio de portada
-function obtenerID(nombre){
-    const cancionBuscada = Musica.obtenerPorNombre(nombre);
+function obtenerID(nombre) {
+  const cancionBuscada = Musica.obtenerPorNombre(nombre);
 
-   return cancionBuscada.id;
+  return cancionBuscada.id;
 }
 
+//////BOTON PLAY
 
+let currentIndex = AllSongs.length - 1;
+let currentMusicId = AllSongs[currentIndex].id;
+let audioActual;
 
-
-function adelantarEnPlaylist(currentIndex) {
-
-  if (currentIndex < AllSongs.length - 1) {
-      currentIndex++;
-  }else {
-      currentIndex=0;
-     
+function playMusic(sonido, currentId) {
+  // Detener la reproducción del audio actual si existe
+  if (audioActual) {
+    audioActual.pause();
+    audioActual.currentTime = 0; // Reiniciar el tiempo de reproducción
+    console.log(audioActual);
   }
-  const cancionSiguiente = AllSongs[currentIndex];
-  playMusic(cancionSiguiente.sonido)
 
+  // Crear un nuevo objeto de audio
+  var audio = new Audio(sonido);
 
- 
+  audioActual = audio;
+
+  // Reproducir el sonido
+  audioActual.play();
+
+  currentIndex = currentId;
+  console.log("Current Music ID:", currentIndex);
 }
 
-let currentIndex= AllSongs.length - 1;
+function adelantarEnPlaylist() {
+  if (currentIndex < AllSongs.length - 1) {
+    currentIndex++;
+  } else {
+    currentIndex = 0;
+  }
+
+  // Actualizar el ID de la canción actual
+  currentMusicId = AllSongs[currentIndex].id;
+
+  const cancionSiguiente = AllSongs[currentIndex];
+  playMusic(cancionSiguiente.sonido, currentMusicId);
+}
 
 function retrocederEnPlaylist() {
   if (currentIndex === undefined || currentIndex === 0) {
@@ -622,82 +621,58 @@ function retrocederEnPlaylist() {
     currentIndex = 0;
   } else {
     currentIndex--;
-    // Obtener la canción actual
+
+    // Actualizar el ID de la canción actual
+    currentMusicId = AllSongs[currentIndex].id;
+
     const cancionAnterior = AllSongs[currentIndex];
-    //console.log(cancionAnterior.id)
-    playMusic(cancionAnterior.sonido)
-
+    playMusic(cancionAnterior.sonido, currentMusicId);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//////BOTON PLAY
-// Variable para mantener la referencia al objeto de audio actual
-var audioActual;
-
-function playMusic(sonido) {
-  // Detener la reproducción del audio actual si existe
-  if (audioActual) {
-    audioActual.pause();
-    audioActual.currentTime = 0; // Reiniciar el tiempo de reproducción
-  }
-
-  // Crear un nuevo objeto de audio
-  var audio = new Audio(sonido);
-
-  // Almacenar la referencia al nuevo objeto de audio
-  audioActual = audio;
-
-  // Reproducir el sonido
-  audioActual.play()
-    
-}
-
 
 /////BOTON STOP
 function stopMusic() {
-
-    if (audioActual && !audioActual.paused) {
-        audioActual.pause();
-        audioActual.currentTime = 0;
-      }
-
+  if (audioActual && !audioActual.paused) {
+    audioActual.pause();
+    audioActual.currentTime = 0;
   }
+}
 
 ////////por default botones portada
-   ////PLAY
-const botonPlay = document.getElementById('botonPlay');
+////PLAY
+const botonPlay = document.getElementById("botonPlay");
 
-  // Agregar un controlador de eventos al botón para llamar a la función de reproducción
-  botonPlay.addEventListener('click', function(){
-    
-    playMusic('https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3')
-  });
-
-
-  ////STOP
-    const botonStop = document.getElementById('botonstop');
-
-    // Agregar un controlador de eventos al botón para llamar a la función de reproducción
-    botonStop.addEventListener('click', function(){
-        stopMusic()
-       
-    });
+// Agregar un controlador de eventos al botón para llamar a la función de reproducción
+botonPlay.addEventListener("click", function () {
+  playMusic("https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3");
+});
 
 
+////PLAY
+const botonPause = document.getElementById("botonpause");
 
-  
+botonPause.addEventListener("click", function () {
+  playMusic();
+});
 
 
+////STOP
+const botonStop = document.getElementById("botonstop");
+
+botonStop.addEventListener("click", function () {
+  stopMusic();
+});
+
+////next
+const botonNext = document.getElementById("botonNext");
+
+botonNext.addEventListener("click", function () {
+  adelantarEnPlaylist();
+});
+
+////atras
+const botonAtras = document.getElementById("botonAtras");
+
+botonAtras.addEventListener("click", function () {
+  retrocederEnPlaylist();
+});
