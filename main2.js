@@ -48,18 +48,18 @@ const AllSongs = [
     "4:20",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    './canciones/Simplemente_Amigos.mp3'
   ),
 
   new Musica(
     1,
     "./imagenes/portada1.jpeg",
     "Eres",
-    "Cafe Tacuba",
+    "Café Tacuba",
     "4:20",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    './canciones/Eres.mp3'
   ),
 
   new Musica(
@@ -70,7 +70,7 @@ const AllSongs = [
     "4:23",
     "Balada",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    './canciones/Unsiglosinti.mp3'
   ),
 
   new Musica(
@@ -79,9 +79,9 @@ const AllSongs = [
     "Te pido",
     "TINI",
     "2:54",
-    "Balada",
+    "Reggaeton",
     "2023",
-    ' '
+    './canciones/TePido.mp3'
   ),
 
   new Musica(
@@ -92,7 +92,7 @@ const AllSongs = [
     "3:16",
     "Regueton",
     "2023",
-    ' '
+    './canciones/Luna.mp3'
   ),
 
   new Musica(
@@ -103,271 +103,271 @@ const AllSongs = [
     "3:08",
     "Balada",
     "2023",
-    ' '
+    './canciones/Extrañándote.mp3'
   ),
 
   new Musica(
     6,
     "./imagenes/portada6.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
+    "Necio",
+    "Romeo Santos",
     "4:20",
-    "Balada",
-    "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "Bachata",
+    "2015",
+    './canciones/Necio.mp3'
   ),
 
   new Musica(
     7,
     "./imagenes/portada7.jpeg",
-    "Eres",
-    "Cafe Tacuba",
-    "4:20",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "Dejala Volar",
+    "Tito El Bambino",
+    "3:20",
+    "Reggaeton",
+    "2015",
+    './canciones/DejalaVolar.mp3'
   ),
 
   new Musica(
     8,
-    "./imagenes/portada8.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
-    "4:23",
-    "Balada",
+    "./imagenes/portada8.avif",
+    "Igual Que Ayer",
+    "Rakim Ken-y",
+    "3:52",
+    "Reggaeton",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    './canciones/IgualQueAyer.mp3'
   ),
 
   new Musica(
     9,
     "./imagenes/portada9.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
-    "Balada",
-    "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "Eres Mía",
+    "Romeo Santos",
+    "4:10",
+    "Bachata",
+    "2022",
+    './canciones/EresMía.mp3'
   ),
 
   new Musica(
     10,
     "./imagenes/portada10.jpeg",
-    "Eres",
-    "Cafe Tacuba",
-    "4:20",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "Ojitos Chiquitos",
+    "Don Omar",
+    "4:10",
+    "Reggaeton",
+    "2019",
+    './canciones/OjitosChiquitos.mp3'
   ),
 
   new Musica(
     11,
-    "./imagenes/portada11.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
+    "./imagenes/portada11.jpg",
+    "Lo Aprendí De Ti",
+    "Ha-Ash",
     "4:23",
     "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "2016",
+    './canciones/LoAprendíDeTi.mp3'
   ),
 
   new Musica(
     12,
     "./imagenes/portada12.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
+    "Mientes",
+    "Camila",
+    "4:00",
     "Balada",
     "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    './canciones/Mientes.mp3'
   ),
 
   new Musica(
     13,
     "./imagenes/portada13.jpeg",
-    "Eres",
-    "Cafe Tacuba",
-    "4:20",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "Imitadora ",
+    "Romeo Santos",
+    "3:55",
+    "Bachata",
+    "2018",
+    './canciones/Imitadora.mp3'
   ),
 
   new Musica(
     14,
     "./imagenes/portada14.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
-    "4:23",
-    "Balada",
+    "Rosa Pastel",
+    "Belanova ",
+    "3:05",
+    "Pop",
     "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    './canciones/RosaPastel.mp3'
   ),
 
   new Musica(
     15,
     "./imagenes/portada15.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
-    "Balada",
-    "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "Jailhouse Rock",
+    "Elvis Presley",
+    "2:55",
+    "Rock and Roll",
+    "1957",
+    './canciones/JailhouseRock.mp3'
   ),
 
   new Musica(
     16,
-    "./imagenes/portada16.jpeg",
-    "Eres",
-    "Cafe Tacuba",
-    "4:20",
+    "./imagenes/portada16.png",
+    "Perdón, Perdón",
+    "HA-ASH",
+    "3:39",
     "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "2015",
+    './canciones/Perdón.mp3'
   ),
 
   new Musica(
     17,
-    "./imagenes/portada17.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
-    "4:23",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "./imagenes/portada17.jpg",
+    "Luna",
+    "Zoé",
+    "5:01",
+    "Rock en español",
+    "2008",
+    './canciones/Luna-zoe.mp3'
   ),
 
   new Musica(
     18,
     "./imagenes/portada18.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
-    "Balada",
-    "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "SimplYou're",
+    "John Travolta, Olivia",
+    "2:49",
+    "Rock and Roll",
+    "1978",
+    './canciones/Grease.mp3'
   ),
 
   new Musica(
     19,
     "./imagenes/portada19.jpeg",
-    "Eres",
-    "Cafe Tacuba",
+    "Rosas",
+    "La Oreja de Van Gogh",
     "4:20",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "Pop",
+    "2015",
+    './canciones/Rosas.mp3'
   ),
 
   new Musica(
     20,
-    "./imagenes/portada20.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
-    "4:23",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "./imagenes/portada20.png",
+    "La diabla",
+    "Romeo Santos",
+    "4:00",
+    "Bachata",
+    "2022",
+    './canciones/La_diabla.mp3'
   ),
 
   new Musica(
     21,
     "./imagenes/portada21.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
-    "Balada",
-    "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "Lost on You",
+    "LP",
+    "5:01",
+    "Pop",
+    "2016",
+    './canciones/LostonYou.mp3'
   ),
 
   new Musica(
     22,
     "./imagenes/portada22.jpeg",
-    "Eres",
-    "Cafe Tacuba",
-    "4:20",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "Hace Mucho Tiempo",
+    "Arcángel ",
+    "3:20",
+    "Reggaeton",
+    "2014",
+    './canciones/HaceMuchoTiempo.mp3'
   ),
 
   new Musica(
     23,
     "./imagenes/portada23.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
-    "4:23",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "Labios Rotos ",
+    "Zoé ",
+    "4:22",
+    "Rock en español",
+    "2011",
+    './canciones/LabiosRotos.mp3'
   ),
 
   new Musica(
     24,
     "./imagenes/portada24.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
-    "Balada",
-    "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "Una Hoja En Blanco",
+    "Omar Geles, Esmeralda Orozco",
+    "4:44",
+    "Vallenatos",
+    "1997",
+    './canciones/UnaHojaEnBlanco.mp3'
   ),
 
   new Musica(
     25,
     "./imagenes/portada25.jpeg",
-    "Eres",
-    "Cafe Tacuba",
+    "Olvídala",
+    "Binomio De Oro De América, Jorge Celedón",
     "4:20",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "Vallenatos",
+    "2007",
+    './canciones/Olvídala.mp3'
   ),
 
   new Musica(
     26,
     "./imagenes/portada26.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
+    "Mi Santa",
+    "Romeo Santos",
     "4:23",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "Bachata",
+    "2011",
+    './canciones/MiSanta.mp3'
   ),
 
   new Musica(
     27,
     "./imagenes/portada27.jpeg",
-    "Simplemente Amigos",
-    "Ana Gabriel",
-    "4:20",
-    "Balada",
-    "2013",
-    'https://cdn.pixabay.com/audio/2021/11/01/audio_00fa5593f3.mp3'
+    "Amor prohibido",
+    "Selena",
+    "2:50",
+    "Cumbia",
+    "1994",
+    './canciones/AmorProhibido.mp3'
   ),
 
   new Musica(
     28,
-    "./imagenes/portada28.jpeg",
-    "Eres",
-    "Cafe Tacuba",
+    "./imagenes/portada28.jpg",
+    "Me Matas",
+    "Rakim y Ken-y",
     "4:20",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2022/02/22/audio_c06fba1b22.mp3'
+    "Reggaeton",
+    "2019",
+    './canciones/MeMatas.mp3'
   ),
 
   new Musica(
     29,
-    "./imagenes/portada29.jpeg",
-    "Un siglo sin ti",
-    "Chayanne",
-    "4:23",
-    "Balada",
-    "2009",
-    'https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3'
+    "./imagenes/portada29.jpg",
+    "Soñé",
+    "Zoé",
+    "3:52",
+    "Rock en español",
+    "2003",
+    './canciones/Soñé.mp3'
   ),
 ];
   
@@ -683,7 +683,7 @@ const botonPlay = document.getElementById('botonPlay');
   // Agregar un controlador de eventos al botón para llamar a la función de reproducción
   botonPlay.addEventListener('click', function(){
     
-    playMusic('https://cdn.pixabay.com/audio/2021/10/22/audio_6642827492.mp3')
+    playMusic('./canciones/Simplemente_Amigos.mp3')
   });
 
 
