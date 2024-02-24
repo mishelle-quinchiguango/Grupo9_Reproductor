@@ -347,7 +347,7 @@ const AllSongs = [
     "1994",
     './canciones/AmorProhibido.mp3'
   ),
-
+  
   new Musica(
     28,
     "./imagenes/portada28.jpg",
@@ -447,17 +447,14 @@ class ListaCanciones {
 
             const playButton = document.getElementById("botonPlay");
             playButton.addEventListener('click', function() {
-              playMusic(concurretMusic.sonido);
-            
+              playMusic(concurretMusic.sonido);  
           });
 
          
           const blackButton = document.getElementById("botonBlack");
               blackButton.addEventListener('click', function() {
                 retrocederEnPlaylist(concurretMusic.id);
-                
-
-            
+   
           });
 
 
@@ -548,14 +545,6 @@ class ListaCanciones {
         // También debes eliminar la canción de la lista de canciones favoritas en tu clase ListaCanciones
         this.cancionesFavoritas = this.cancionesFavoritas.filter(cancion => cancion !== nombreCancion);
     }
-
-
-    // searchMusic(query){
-    //     const results=this.music.filter(p=>p.nombre.toLowerCase().includes(query.toLowerCase()))
-    //     if(results.length==0) this.containerMusic.innerHTML=`<p class="musicError">No se encontraron musicas</p>
-    //     <div class="music" onClick`
-
-    // }
 }
 
 
@@ -624,7 +613,7 @@ function retrocederEnPlaylist() {
     currentIndex--;
     // Obtener la canción actual
     const cancionAnterior = AllSongs[currentIndex];
-    //console.log(cancionAnterior.id)
+    
     playMusic(cancionAnterior.sonido)
 
   }
